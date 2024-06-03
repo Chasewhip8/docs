@@ -1,91 +1,63 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+    "$schema": "https://mintlify.com/schema.json",
+    "name": "Based Docs",
+    "logo": {
+        "dark": "/logo/chad.png",
+        "light": "/logo/chad.png"
     },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+    "favicon": "/logo/chad.png",
+    "colors": {
+        "primary": "#5473cf",
+        "light": "#5473cf",
+        "dark": "#5473cf",
+        "anchors": {
+            "from": "#9945ff",
+            "to": "#14f195"
+        }
     },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+    "modeToggle": {
+        "default": "dark",
+        "isHidden": true
+    },
+    "topbarCtaButton": {
+        "name": "Protocol",
+        "url": "https://basedchad.lol/"
+    },
+
+    "anchors": [
+        {
+            "name": "Protocol",
+            "icon": "globe",
+            "url": "https://basedchad.lol/"
+        },
+        {
+            "name": "Community",
+            "icon": "telegram",
+            "url": "https://t.me/+Em8tFPKz6k05M2Qx"
+        },
+        {
+            "name": "X",
+            "icon": "x",
+            "url": "https://x.com/basedsolanachad/"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Get Started",
+            "pages": ["introduction"]
+        },
+        {
+            "group": "Economics",
+            "pages": ["tokenomics", "liquidity"]
+        },
+        {
+            "group": "Protocols",
+            "pages": ["chadswap"]
+        }
+    ],
+    "footerSocials": {
+        "x": "https://x.com/mintlify",
+        "github": "https://github.com/mintlify",
+        "linkedin": "https://www.linkedin.com/company/mintsearch"
     }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
 }
